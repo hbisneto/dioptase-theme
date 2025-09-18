@@ -1,5 +1,5 @@
 {
-    "name":"theme-excel",
+    "name":"theme-dioptase",
     "displayName":"%displayName%",
     "description":"%description%",
     "categories":["Themes"],
@@ -18,16 +18,16 @@
         "themes":
         [
             {
-                "id":"ExcelLike (Dark)",
-                "label":"%ExcelDark%",
+                "id":"Dioptase (Dark)",
+                "label":"%DioptaseDark%",
                 "uiTheme":"vs-dark",
-                "path":"./themes/Dark/excel-theme-dark.json"
+                "path":"./themes/Dark/dioptase-theme-dark.json"
             },
             {
-                "id":"ExcelLike (Light)",
-                "label":"%ExcelLight%",
+                "id":"Dioptase (Light)",
+                "label":"%DioptaseLight%",
                 "uiTheme":"vs",
-                "path":"./themes/Light/excel-theme-light.json"
+                "path":"./themes/Light/dioptase-theme-light.json"
             }
         ]
     },
@@ -35,6 +35,6 @@
     "repository":
     {
         "type":"git",
-        "url":"https://github.com/hbisneto/excel-theme.git"
+        "url":"https://github.com/hbisneto/dioptase-theme.git"
     }
 }
