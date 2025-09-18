@@ -1,7 +1,7 @@
 {
-    "displayName":"Excel Theme",
-    "description":"Microsoft Excel Theme for Visual Studio Code",
+    "displayName":"ExcelLike Theme",
+    "description":"ExcelLike Theme for Visual Studio Code",
 
-    "ExcelDark":"Excel Theme (Dark)",
-    "ExcelLight":"Excel Theme (Light)"
+    "ExcelDark":"ExcelLike Theme (Dark)",
+    "ExcelLight":"ExcelLike Theme (Light)"
 }

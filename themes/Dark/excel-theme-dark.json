@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Excel Theme (Dark)",
+	"name": "ExcelLike Theme (Dark)",
 	"include": "./tokens-dark.json",
 	"tokenColors": [
 		{

@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Excel Tokens",
+	"name": "ExcelLike Tokens",
 	"colors": {
 		"activityBar.background": "#000",
 		"activityBar.foreground": "#33c481",

@@ -3,7 +3,7 @@
     "displayName":"%displayName%",
     "description":"%description%",
     "categories":["Themes"],
-    "version":"1.0.1",
+    "version":"1.1.0",
     "publisher":"BisnetoInc",
     "icon": "assets/icon.png",
     "license":"MIT",
@@ -18,13 +18,13 @@
         "themes":
         [
             {
-                "id":"Excel (Dark)",
+                "id":"ExcelLike (Dark)",
                 "label":"%ExcelDark%",
                 "uiTheme":"vs-dark",
                 "path":"./themes/Dark/excel-theme-dark.json"
             },
             {
-                "id":"Excel (Light)",
+                "id":"ExcelLike (Light)",
                 "label":"%ExcelLight%",
                 "uiTheme":"vs",
                 "path":"./themes/Light/excel-theme-light.json"

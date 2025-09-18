@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Excel Theme (Light)",
+	"name": "ExcelLike Theme (Light)",
 	"include": "./tokens-light.json",
 	"tokenColors": [ // adds rules to the light vs rules
 		{
