@@ -1,7 +1,7 @@
 {
-    "displayName":"Excel Theme",
-    "description":"Microsoft Excel Theme for Visual Studio Code",
+    "displayName":"Dioptase Theme",
+    "description":"Dioptase Theme for Visual Studio Code",
 
-    "ExcelDark":"Excel Theme (Dark)",
-    "ExcelLight":"Excel Theme (Light)"
+    "DioptaseDark":"Dioptase Theme (Dark)",
+    "DioptaseLight":"Dioptase Theme (Light)"
 }

@@ -1,8 +1,8 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Excel Theme (Dark)",
-	"include": "./tokens-dark.json",
-	"tokenColors": [
+	"name": "Dioptase Theme (Light)",
+	"include": "./tokens-light.json",
+	"tokenColors": [ // adds rules to the light vs rules
 		{
 			"name": "Function declarations",
 			"scope": [
@@ -10,10 +10,10 @@
 				"support.function",
 				"support.constant.handlebars",
 				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal"
+				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#795E26"
 			}
 		},
 		{
@@ -53,7 +53,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#267f99"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#267f99"
 			}
 		},
 		{
@@ -75,13 +75,13 @@
 			"scope": [
 				"keyword.control",
 				"source.cpp keyword.operator.new",
-				"keyword.operator.delete",
+				"source.cpp keyword.operator.delete",
 				"keyword.other.using",
 				"keyword.other.operator",
 				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#C586C0"
+				"foreground": "#AF00DB"
 			}
 		},
 		{
@@ -91,10 +91,11 @@
 				"meta.definition.variable.name",
 				"support.variable",
 				"entity.name.variable",
-				"constant.other.placeholder"
+				"constant.other.placeholder", // placeholders in strings
+
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#001080"
 			}
 		},
 		{
@@ -104,7 +105,7 @@
 				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#4FC1FF"
+				"foreground": "#0070C1",
 			}
 		},
 		{
@@ -113,7 +114,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#001080"
 			}
 		},
 		{
@@ -128,7 +129,7 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#0451a5"
 			}
 		},
 		{
@@ -143,7 +144,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#d16969"
 			}
 		},
 		{
@@ -154,7 +155,13 @@
 				"constant.character.set.regexp"
 			],
 			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#811f3f"
+			}
+		},
+		{
+			"scope": "keyword.operator.quantifier.regexp",
+			"settings": {
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -163,38 +170,33 @@
 				"keyword.control.anchor.regexp"
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
-			}
-		},
-		{
-			"scope": "keyword.operator.quantifier.regexp",
-			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#EE0000"
 			}
 		},
 		{
 			"scope": "constant.character",
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#0000ff"
 			}
 		},
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#EE0000"
 			}
 		},
 		{
 			"scope": "entity.name.label",
 			"settings": {
-				"foreground": "#C8C8C8"
+				"foreground": "#000000"
 			}
 		}
 	],
+	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"newOperator":"#C586C0",
-		"stringLiteral":"#ce9178",
-		"customLiteral": "#DCDCAA",
-		"numberLiteral": "#b5cea8"
+		"newOperator": "#AF00DB",
+		"stringLiteral": "#a31515",
+		"customLiteral": "#795E26",
+		"numberLiteral": "#098658",
 	}
 }

@@ -1,13 +1,13 @@
-# Excel Theme
+# ExcelLike Theme
 
 Excel theme brings Microsoft Excel to Visual Studio Code.
 
-![Excel for Visual Studio Code](https://raw.githubusercontent.com/hbisneto/hbisneto.github.io/main/excel-theme/banner.png)
+![ExcelLike for Visual Studio Code](https://raw.githubusercontent.com/hbisneto/hbisneto.github.io/main/excel-theme/banner.png)
 
 ## Available Themes
 
-- Excel Theme (Dark)
-- Excel Theme (Light)
+- ExcelLike Theme (Dark)
+- ExcelLike Theme (Light)
 
 # Contribute
 
